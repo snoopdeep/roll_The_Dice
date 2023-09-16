@@ -8,7 +8,7 @@ const player_2_ScoreEL = document.querySelector("#score--1");
 
 // making dice hidden initially;
 const diceEL = document.querySelector(".dice");
-diceEL.classList.add("hidden");
+//diceEL.classList.add("hidden");
 
 // selecting currentScore element
 const currentScoreEL1 = document.querySelector("#current--0");
@@ -73,6 +73,8 @@ const init=function(){
     document.querySelector('.player--0').classList.remove('player--winner');
     document.querySelector('.player--1').classList.remove('player--active');
     document.querySelector('.player--0').classList.add('player--active');
+    // making dice hidden
+    diceEL.classList.add("hidden");
 
 };
 
